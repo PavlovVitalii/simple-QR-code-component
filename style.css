@@ -19,7 +19,12 @@ main {
   flex-direction: column;
 }
 
-img {
+.img {
+  width: 288px;
+  height: 288px;
+}
+
+.img img {
   border-radius: 10px;
   width: 100%;
 }
@@ -28,7 +33,7 @@ img {
   border-radius: 20px;
   width: 320px;
   height: 499px;
-  background: #FFFFFF;
+  background: #ffffff;
   padding: 16px 16px 40px;
   box-shadow: 0px 25px 25px rgba(0, 0, 0, 0.0476518);
 }
@@ -45,7 +50,7 @@ img {
 h1 {
   font-size: 22px;
   line-height: 120%;
-  color: #1F314F;
+  color: #1f314f;
 }
 
 p {
@@ -55,10 +60,3 @@ p {
   letter-spacing: 0.2px;
   margin-top: 15px;
 }
-
-
-
-
-
-
-
